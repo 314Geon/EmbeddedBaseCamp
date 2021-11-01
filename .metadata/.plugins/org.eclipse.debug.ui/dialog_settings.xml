@@ -3,7 +3,7 @@
 	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="375"/>
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="624"/>
-		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value="com.st.stm32cube.ide.mcu.debug.launch.launchConfigurationType, "/>
+		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value=""/>
 		<item key="DIALOG_WIDTH" value="1920"/>
 		<item key="DIALOG_HEIGHT" value="1009"/>
 		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>

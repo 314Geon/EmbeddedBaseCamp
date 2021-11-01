@@ -10,10 +10,10 @@
   * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
   *
   ******************************************************************************
   */
@@ -58,23 +58,21 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define Green_Pin GPIO_PIN_12
-#define Green_GPIO_Port GPIOD
-#define Orange_Pin GPIO_PIN_13
-#define Orange_GPIO_Port GPIOD
-#define Red_Pin GPIO_PIN_14
-#define Red_GPIO_Port GPIOD
-#define Blue_Pin GPIO_PIN_15
-#define Blue_GPIO_Port GPIOD
-#define SW3_Pin GPIO_PIN_6
-#define SW3_GPIO_Port GPIOC
-#define SW3_EXTI_IRQn EXTI9_5_IRQn
-#define SW4_Pin GPIO_PIN_8
-#define SW4_GPIO_Port GPIOC
-#define SW4_EXTI_IRQn EXTI9_5_IRQn
-#define SW1_Pin GPIO_PIN_15
-#define SW1_GPIO_Port GPIOA
-#define SW1_EXTI_IRQn EXTI15_10_IRQn
+#define up_btn_Pin GPIO_PIN_6
+#define up_btn_GPIO_Port GPIOC
+#define up_btn_EXTI_IRQn EXTI9_5_IRQn
+#define down_btn_Pin GPIO_PIN_8
+#define down_btn_GPIO_Port GPIOC
+#define down_btn_EXTI_IRQn EXTI9_5_IRQn
+#define left_btn_Pin GPIO_PIN_9
+#define left_btn_GPIO_Port GPIOC
+#define left_btn_EXTI_IRQn EXTI9_5_IRQn
+#define middle_btn_Pin GPIO_PIN_15
+#define middle_btn_GPIO_Port GPIOA
+#define middle_btn_EXTI_IRQn EXTI15_10_IRQn
+#define right_btn_Pin GPIO_PIN_11
+#define right_btn_GPIO_Port GPIOC
+#define right_btn_EXTI_IRQn EXTI15_10_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
