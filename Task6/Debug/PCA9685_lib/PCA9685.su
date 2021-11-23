@@ -1,0 +1,4 @@
+pca9685.c:22:6:pca9685_WriteData	32	static
+pca9685.c:34:6:pca9685_Init	32	static
+pca9685.c:43:6:pca9685_SetDutyCycle	32	static
+pca9685.c:60:6:pca9685_DisableALL	16	static
