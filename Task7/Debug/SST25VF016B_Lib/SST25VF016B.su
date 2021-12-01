@@ -1,0 +1,9 @@
+SST25VF016B.c:14:6:Flash_WriteStatus	24	static
+SST25VF016B.c:26:6:Flash_Lock	8	static
+SST25VF016B.c:30:6:Flash_Unlock	8	static
+SST25VF016B.c:34:6:Flash_Init	16	static
+SST25VF016B.c:40:6:Flash_Read	32	static
+SST25VF016B.c:48:6:Flash_WriteSet	24	static
+SST25VF016B.c:58:6:Flash_Erase4k	32	static
+SST25VF016B.c:70:6:Flash_EraseAll	24	static
+SST25VF016B.c:84:6:Flash_Write	40	static
